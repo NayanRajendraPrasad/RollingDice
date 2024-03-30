@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DiceRolling</title>
+    <link rel="icon" href="icon.webp">
     <link rel="stylesheet" href="Styling.css">
 </head>
 <body>
-    <div id="box"></div>
-    <div id="container">
-        <button id="Roll" onclick="convert()">Roll</button>
-        <br>
-
-        <div id="images" class="diceroll"></div>
-        <img src="dice.jpg" id="dice">
-
-        <p id="shownum"></p>
-        <p id="sound"></p>
+    <div class="message">
+        <p>Let's check you'r lucky number today click Roll button</p>
     </div>
+    <div id="box">
+        <div id="container">
+            <button id="Roll" onclick="convert()">Roll</button>
+            <div id="images" class="diceroll"></div>
+            <img src="dice.jpg" id="dice">
+    
+            <p id="shownum"></p>
+            <p id="sound"></p>
+        </div>
+        </div>
 
 
     <script src="Script.js"></script>
