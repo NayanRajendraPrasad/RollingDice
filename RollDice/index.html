@@ -8,18 +8,19 @@
     <link rel="stylesheet" href="Styling.css">
 </head>
 <body>
-    <div class="message">
-        <p>Let's check you'r lucky number today click Roll button</p>
-    </div>
     <div id="box">
-        <div id="container">
-            <button id="Roll" onclick="convert()">Roll</button>
-            <div id="images" class="diceroll"></div>
-            <img src="dice.jpg" id="dice">
+        <div class="outerbox">
+            <div class="innerbox">
+                <button id="Rollbutton" onclick="convert()">Roll</button>
+                <img src="dice.jpg" id="dice">
+                <div id="images" class="diceroll"></div>
     
-            <p id="shownum"></p>
-            <p id="sound"></p>
+                <p id="shownum"></p>
+                <p id="sound"></p>
+            </div>
         </div>
+        <div class="message">
+            <p>Let's check you'r lucky number today click Roll button</p>
         </div>
 
 
